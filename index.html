@@ -1,0 +1,86 @@
+<!--Author: MatiasYlipekkala-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matias bootstrap sivusto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" defer></script>
+</head>
+<body>
+    <!--Navbar alkaa-->
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">PERUNA</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Etusivulle</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="page2.html">Lisäinformatiota perunasta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page3.html">Perunan elinkaari</a>
+                  </li>
+                </li>
+              </ul>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!--Navbar loppuu-->
+
+      <div class="container text-center py-5">
+        <h1>Hieman perunasta</h1><br><br>
+        <div class="row">
+          <div class="col">
+            <i class="fa-solid fa-warehouse fa-4x"></i><br><br> 
+            Peruna on koisokasvien (Solanaceae) heimoon kuuluva kasvi, 
+            jonka mukulaa käytetään ravintona. Peruna on yksi eniten käytetyistä ravintokasveista 
+            Euroopassa sekä Etelä- ja Pohjois-Amerikassa. Peruna kuuluu niiden yhdeksän viljelykasvin joukkoon,
+             joiden avulla tuotetaan 75 prosenttia ihmisravinnosta.<br><br>
+            <div class="kuva"><img src="images/Peruna1.jpg" alt="Peruna"></div>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-circle-info fa-4x"></i><br><br>
+            Jos olet kiinnostunut tietämään lisää perunoista, klikkaa alta ja siirry "Lisäinformatiota perunasta" sivulle <br><br>
+            <a class="btn btn-primary" href="page2.html" role="button">Lisäinformatiota perunasta</a>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-leaf fa-4x"></i><br><br>
+            Voit myös poiketa kuvasivulle, jossa näkyy perunan elinkaari mullasta lautaselle<br><br>
+            <a class="btn btn-primary" href="page3.html" role="button">Perunan elinkaari</a>
+            <div class="kuva"><img src="images/lataus.jpeg" alt="Peruna"></div>
+          </div>
+        </div>
+      </div>
+
+    <!--FOOTER ALKAA-->
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark" id="footer">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="bootstrap"/></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">&copy; 2023 Matias Ylipekkala / TIK22SP</span>
+        </div>
+      </footer>
+    <!--FOOTER LOPPUU-->
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
